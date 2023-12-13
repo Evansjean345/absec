@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attendez que le DOM soit chargé avant d'exécuter le code
   
     // Exemple de requête avec fetch
-    fetch('http://localhost:4000/about/absec/6567cf27ea164cafe5de6aa3')
+    fetch('https://caauri-api.cyclic.cloud/about/absec/6567cf27ea164cafe5de6aa3')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

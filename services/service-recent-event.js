@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attendez que le DOM soit chargé avant d'exécuter le code
   
     // Exemple de requête avec fetch
-    fetch('http://localhost:4000/event_recent/absec')
+    fetch('https://caauri-api.cyclic.cloud/event_recent/absec')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attendez que le DOM soit chargé avant d'exécuter le code
   
     // Exemple de requête avec fetch
-    fetch('http://localhost:4000/event_recent/absec')
+    fetch('https://caauri-api.cyclic.cloud/event_recent/absec')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attendez que le DOM soit chargé avant d'exécuter le code
   
     // Exemple de requête avec fetch
-    fetch('http://localhost:4000/futur_event/absec')
+    fetch('https://caauri-api.cyclic.cloud/futur_event/absec')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attendez que le DOM soit chargé avant d'exécuter le code
   
     // Exemple de requête avec fetch
-    fetch('http://localhost:4000/futur_event/absec')
+    fetch('https://caauri-api.cyclic.cloud/futur_event/absec')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
