@@ -1,0 +1,9 @@
+@media (width > 770px) {
+  #navbarSupportedContent ul li a {
+    color: #fff;
+  }
+}
+
+input{
+    background: #edebeb !important;
+}
